@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Area Calculator</title>
+    <style>
+        .container{
+           align-items: center;
+           
+        }
+    </style>
+</head>
+<body >
+    <header class="contents">
+        <div class="container">
+            <ul>
+                <li><a href="circle">Circle Calculator</a></li>
+                <li><a href="triangle">Triangle Calculator</a></li>
+
+            </ul>
+        </div>
+        <h3>Triangle Calculator</h3>
+        <form action="/triangle" method="post">
+            <label for="height">Height of Triangle<br></label>
+            <input type="text" name="height" id="height">
+            <label for="base"><br>Base of Triangle<br></label>
+            <input type="text" name="base" id="base"><br>
+            <button type="submit">Calculate</button>
+        </form>
+    </header>
+
+   
+</body>
+</html>
