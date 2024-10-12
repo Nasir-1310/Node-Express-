@@ -1,0 +1,9 @@
+h2{
+    text-align: center;
+    color: blue;
+    
+}
+div {
+    display: grid;
+    place-items: center;
+  }
